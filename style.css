@@ -1,0 +1,1725 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.backgroundMainImage {
+    background: url('img/image,galeria,285,1920,1080.jpg') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 49%;
+    z-index: -1;
+    position: absolute;
+
+}
+.logo {
+    margin-left: 8%;
+    display: inline;
+}
+
+.logo img {
+    width: 16%; 
+}
+.line {
+    width: 0.1%; 
+    height: 3.5vh; 
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 24%; 
+    top: 1.3%; 
+}
+.menu{
+ 
+    text-align: center;
+      display: flex;
+      position: absolute;
+    margin-top: -5.4%;
+      margin-left: 22%;
+      
+  }
+  
+  .menuElement {
+      text-decoration: none !important;
+      color: white;
+      padding: 9%;
+      font-size: 1.4vw;
+      position: relative;
+  }
+  
+  .menuElement a {
+      color:white;
+      text-decoration: none !important;
+  }
+  
+  .menuElement a:visited {
+      color: white;
+      text-decoration: none !important;
+  }
+  
+  .menuElement a:active {
+      color: white;
+      text-decoration: none !important;
+  }
+  
+  .menuElement::after{
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      bottom: 30%; 
+      left: 14%;
+    
+  }
+  
+  .menuElement:hover::after{
+      width: 75%;
+  }
+  .writing{
+    margin-top: 8.4%;
+    margin-left: 8%;
+    color: white;
+    font-size: 2.4vw;
+    
+    }
+    .writing2{
+        margin-top: -1.8%;
+        margin-left: 8.2%;
+        color: white;
+        font-size: 1.2vw;
+        text-decoration: none;
+    }
+    .squares {
+        display: flex;
+        justify-content: space-between;
+        width: 32%;
+        height: 42vh;
+        margin-left: 8%;
+        margin-top: 2%;
+    }
+    
+    .square {
+        width: 22%;
+        height: 30%;
+        background-color:none;
+        border: 3px white solid;
+        border: 2% solid white;
+    
+    }
+    .plus{
+        color: white;
+        font-size: 2vw;
+        margin-left: 14%;
+        margin-top: 2%;
+        text-decoration:none;
+    }
+    .type{
+        color: white;
+        display:flex;
+        font-size: 0.8vw;
+        margin-top: 7%;
+        position: relative;
+        margin-left: 4%;
+        
+        
+        }
+    .type1{
+        color: white;
+        font-size: 0.8vw;
+        margin-top: 18%;
+        position: relative;
+        margin-left: 3%;
+        }
+        .type2{
+        color: white;
+        font-size: 0.8vw;
+        margin-top: 7%;
+        position: relative;
+        margin-left: 3%;
+            }
+        .category1 {
+            position: relative;
+            margin: 0 auto;
+            padding: 0;
+            }
+                
+    .logo2 {
+        margin-left: 8%;
+        display: inline;
+    }
+    
+    .logo2 img {
+        margin-top: 13%;
+        width: 16%;
+    }
+.background {
+   background-color: white;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 58%;
+    z-index: -2;
+    position: absolute;
+
+}
+.background2 {
+    background: url('img/back1.jpg') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 62%;
+    z-index: -3;
+    position: absolute;
+
+}
+.background3 {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 58%;
+    z-index: -4;
+    position: absolute;
+
+}
+.background4{
+    background: url('img/l.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin-top: 14%;
+    display: flex;
+    width: 100%;
+    padding-top: 53%;
+    z-index: -5;
+    position: absolute;
+
+
+}
+.background5 {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 66%;
+    z-index: -6;
+    position: absolute;
+
+}
+
+.plus1{
+    color: grey;
+    font-size: 2.4vw;
+    float: right;
+    margin-right: -16%;
+    margin-top: -3%;
+    transition: transform 0.5s ease;
+}
+
+.plus1:hover{
+
+    transform: rotate(180deg);
+}
+.plus2{
+    color: grey;
+    font-size: 2.4vw;
+    float: right;
+    margin-right: 23%;
+    margin-top: 4.8%;
+    transition: transform 0.5s ease;
+}
+.plus2:hover{
+
+    transform: rotate(180deg);
+}
+.plus3{
+    color: grey;
+    font-size: 2.4vw;
+    float: right;
+    margin-right: 23%;
+    margin-top: 6%;
+    transition: transform 0.5s ease;
+}
+.plus3:hover{
+
+    transform: rotate(180deg);
+}
+
+    .logo3 {
+        margin-left: 8%;
+        display: inline;
+    }
+    
+    .logo3 img {
+        margin-top: 23.4%;
+        width: 16%;
+    }
+    .logo6{
+        margin-left: -42%;
+        display: inline;
+    }
+    .logo6 img{
+        margin-top: 19%;
+        width: 16%;
+    }
+    
+    .line2 {
+        width: 0.12%; 
+        height: 3.8vh;
+   background-color: black;
+   display: inline-block;
+   margin-left: -0.1%;
+   margin-top: 13.4%;
+   position: absolute;
+
+    }
+ 
+ .custom-margin{
+    margin-top: 23.8%;
+ }
+ .custom-margin2{
+    margin-top: 19.4%;
+ }
+    .flats{
+        margin-top: 15%;
+
+    }
+    .oferts {
+        font-family: 'Crimson Pro', serif;
+        position: absolute;
+        display: inline;
+        margin-top: 12.8%;
+        margin-left: 0.6%;
+        font-size: 2.4vw;
+    }
+
+    .custom-margin-oferts{
+
+        margin-top: 23.2%;
+    }
+    .custom-margin-oferts2{
+
+        margin-top: 18.8%;
+    }
+    .ap1{
+margin-top: 4%;
+margin-left: 4%;
+
+    }
+    .ap1 img{
+width: 45%;
+    }
+
+
+    .ap2{
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .ap2 img{
+        width: 42%;
+            }
+    .ap3{
+         margin-top: 1%;
+         margin-left: 4%;
+         }
+    .ap3 img{
+        width: 42%;
+            }
+            .ap4{
+                margin-top: 1%;
+                margin-left: 4%;
+
+            }
+            .ap4 img{
+                
+                width: 20% !important;
+
+            }
+            .responsiveApart{
+                margin-top: -26%;
+                font-size: 0.8vw;
+            }
+           
+    .title{
+        margin-top: 4%;
+        margin-left: 56%;
+        font-family: 'Crimson Pro', serif;
+        font-weight: 450;
+        position: absolute;
+        display: inline;
+        font-size: 1.8vw;
+        text-align: left;
+        width:20% ;
+
+    }
+    .custom-margin-title{
+
+        margin-top: -29%;
+        margin-left: 55.8%;
+    }
+   
+    .description{
+
+        margin-top:-26%;
+        margin-left: 56%;
+        width: 26%;
+        font-size: 1.2vw;
+        text-align: left;
+        color: gray;
+    }
+    .price{
+     
+        margin-left: 56%;
+        width: 26%;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-top:1%;
+        color: gray;
+    }
+
+    .title2{
+      margin-top: 4%;
+        margin-left: 56%;
+        font-family: 'Crimson Pro', serif;
+        font-weight: 450;
+        position: absolute;
+        display: inline;
+        font-size: 1.8vw;
+        text-align: left;
+
+    }
+    .title3{
+        margin-top: 7.8%;
+          margin-left: 56%;
+          font-family: 'Crimson Pro', serif;
+          font-weight: 450;
+          position: absolute;
+          display: inline;
+          font-size: 1.8vw;
+          text-align: left;
+  
+      }
+    .description2{
+
+      margin-top: -31.2%;
+        margin-left: 56%;
+        width: 26%;
+        font-size: 1.2vw;
+        text-align: left;
+        color: gray;
+    }
+    .description3{
+
+        margin-top: -28%;
+          margin-left: 56%;
+          width: 26%;
+          font-size: 1.2vw;
+          text-align: left;
+          color: gray;
+      }
+    .buttons{
+
+        float: right;
+        margin-top: -11%;
+        margin-right: 1%;
+        }
+        .button {
+            width: 0.7vw;  
+            height: 0.6vw; 
+            border-radius: 100%;
+            margin: 22%;
+           background-color: rgb(217, 217, 217);
+           border: none;
+           box-shadow: none;
+          
+        }
+
+
+        .custom-margin-buttons{
+
+margin-top: -7%;
+
+        }
+
+        .transition-effect {
+            transition: opacity 1s ease-in-out;
+          }
+          
+          .disappear-animation {
+            opacity: 0;
+          }
+          
+          .appear-animation {
+            opacity: 1;
+          }
+          .transition-effect2 {
+            background-color: transparent; 
+            transition: background 0.4s ease-in-out, opacity 0.4s ease-in-out; 
+          }
+          
+          .disappear-animation2 {
+            opacity: 0.5;
+          }
+          
+          .appear-animation2 {
+            opacity: 1;
+          }
+          .logointerior {
+            margin-left: 8%;
+            display: inline;
+        }
+        
+        .logointerior img {
+            margin-top: 16%;
+            width: 16%; 
+        }
+        .line3 {
+            width: 0.1%; 
+            height: 3.7vh; 
+            margin-top: 16.6%; 
+            background-color: white;
+            display: inline-block;
+            position: absolute;
+            left: 24%; 
+            
+        }
+    .interiors{
+        font-family: 'Crimson Pro', serif;
+        color: white;
+        position: absolute;
+        display: inline;
+        margin-top: 15.8%;
+        margin-left: 0.6%;
+        font-size: 2.4vw;
+    }
+    .arrow{
+        margin-left: 2%;
+        margin-top:18%;
+        width: 3vw;
+height: 5vh;
+background:transparent;
+border: grey 3px solid;
+
+    }
+    .arrow:hover{
+        background-color:rgb(255, 255, 255);
+        opacity: 25%;
+    }
+  
+        .material-symbols-outlined{
+            font-size: 1.6vw; 
+            margin-top: 15%;
+            margin-left: 15%;
+            color: rgb(0, 0, 0);
+         
+            
+        
+        }
+        .arrow_forward{
+            margin-left: 95%;
+            margin-top:-1%;
+            width: 3vw;
+    height: 5vh;
+    background:transparent;
+    border: grey 3px solid;
+
+        }
+        .arrow_forward:hover{
+            background-color:rgb(255, 255, 255);
+            opacity: 25%;
+        }
+        .position{
+            margin-left: 35%;
+
+        }
+        .downward{
+
+            color: white;
+            margin-left: 9%;
+            margin-top: 8%;
+            font-size: 1.4vw;
+            text-decoration: none;
+        }
+        .downward a {
+            color: white; 
+            text-decoration: none;
+        }
+        
+        .downward a:visited {
+            text-decoration: none;
+        }
+        
+        .downward a:active {
+            text-decoration: none;
+        }
+
+
+    .logo5{
+        margin-left: 8%;
+     
+        display: inline;
+    }
+    
+    .logo5 img {
+        width: 16%; 
+        margin-top: 17%;
+    }
+    .squares3 {
+        display: flex;
+        justify-content: space-between;
+        width: 18%;
+        height: 42vh;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    .custom-margin-squares3{
+        margin-top: -11%;
+    }
+    
+    .square3 {
+        width: 44%;
+        height: 32%;
+        background-color:none;
+        border: 3px white solid;
+        border: 2% solid white;
+    
+    }
+    .plus4{
+        color: white;
+        font-size: 2.6vw;
+        margin-left: 14%;
+        margin-top: 2%;
+        text-decoration:none;
+    }   
+    .type3{
+        display:flex;
+        color: white;
+font-size: 1vw;
+margin-top: 9.6%;
+position: relative;
+margin-left: 10%;
+    }
+    .writingFinish{
+        margin-top: -8%;
+        margin-left: 10%;
+        color: white;
+        font-size: 1.4vw;
+    }
+    .article{
+        width: 40%;
+        margin-left:10% ;
+    }
+    .ourTeam{
+        color: white;
+        font-size: 1vw;
+        float: left;
+
+    }
+
+
+
+    .custom-margin-buttons2{
+            margin-top: 33%;
+            
+     }
+     .custom-margin-title2{
+     position: absolute;
+    margin-top: -9.2%;
+     }
+        .flatPicture{
+        margin-top: -1%;
+        margin-left: 4%;
+        position: absolute;
+            }
+            .flatPicture img{
+                margin-top: -9.8%;
+        width: 45%;
+            }
+            .flatPicture_img-custom-width{
+                margin-top: -7.8%;
+        width: 63%;
+            }
+            .flatDescription{
+                position: absolute;
+                margin-top: -5%;
+                margin-left: 56%;
+                width: 26%;
+                font-size: 1.2vw;
+                text-align: left;
+                color: gray;
+            }
+            .flatPrice{
+            position: absolute;
+            margin-left: 56%;
+            margin-top: 9%;
+        width: 26%;
+        font-size: 1.2vw;
+        text-align: left;
+        color: gray;
+            }
+        
+                .flatplus{
+                    position: absolute;
+                    margin-left: 78%;
+                    margin-top: -8.4%;
+                    color: grey;
+                    font-size: 2.4vw;
+                    transition: transform 0.5s ease;
+                }
+                .flatplus:hover{
+                
+                    transform: rotate(180deg);
+                }
+                footer{
+                    
+                    background-color: rgb(230, 230, 230);
+                    padding-top: 4%;
+                    margin-top: 40%;
+                    z-index: 0;
+                    width: 100%;
+                }
+                .logo7{
+                    margin-left: 2%;
+                 
+                    display: inline;
+                }
+                
+                .logo7 img {
+                    width: 14.4%; 
+                    margin-top: -2%;
+                }
+            .name{
+
+                float: right;
+                margin-right: 2%;
+                font-size: 1.4vw;
+                color: white;
+                margin-top: -1.4%;
+
+            }
+            .floatTitle{
+            
+             margin-top:32%;
+             color: white;
+            
+                }
+                .floatPrice{
+                    color:white;
+                }
+                .floatType{
+                    color: white;
+                    font-size: 0.8vw;
+                    margin-top: -39%;
+                    position: relative;
+                    margin-left: 3%;
+                    }
+                      
+                     
+                         /*Podstrona z obliczaniem rat platnosci*/
+
+   
+        .wrapper2 {
+            display: flex;
+            height: 100vh;
+          }
+          
+          .halfBackground {
+            flex: 1;
+            background-color: rgb(71, 71, 71);
+            background-size: cover;
+          }
+          
+          .halfBackground2 {
+            flex: 1;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+          }
+          .form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .itext {
+            margin-left: 8%;
+            margin-top: 13%;
+            width:34%;
+            height: 6vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 1.4vw;
+            
+          }
+        .logo4 {
+            margin-left: 31%;
+            display: inline;
+        }
+        
+        .logo4 img {
+            margin-top: 6%;
+            width: 32%;
+        }
+        .formPhotoContainer{
+
+            display: block; 
+        }
+        .formPhoto img{
+            margin-left: 38%;
+            margin-top: 3%;
+            width: 17%;
+        }
+        .formPhoto2 img{
+            margin-left: 35%;
+            margin-top: 3%;
+          width: 21%;
+        }
+        .formPhoto3 img{
+            margin-left: 39%;
+            margin-top: 3%;
+          width: 14%;
+        }
+        .formPrice{
+position: absolute;
+font-size: 1.2vw;
+color: rgb(71, 71, 71);
+margin-right: 9%;
+margin-top: 3%;
+        }
+        .SelfDeposit{
+            position: absolute;
+            margin-left: 4.4%;
+            margin-top: 19%;
+            width:17.3%;
+            height: 6vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 1.4vw; 
+            
+        }
+        .SelfDeposit::placeholder{
+           color: rgb(148, 148, 148);
+        }
+        .SelfDepostiWriting{
+            position: absolute;
+            font-size: 1.2vw;
+            color: rgb(71, 71, 71);
+            margin-right: 2.6%;
+            margin-top: 15%;
+
+
+        }
+        .installmentWriting{
+            position: absolute;
+            font-size: 1.2vw;
+            color: rgb(71, 71, 71);
+            margin-right: 6%;
+            margin-top: 27%;
+        }
+        .installment{
+            position: absolute;
+            margin-left: 4.4%;
+            margin-top: 31%;
+            width:17.3%;
+            height: 6vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 1.4vw;
+        }
+        .calculate{
+position: absolute;
+margin-top: 41%;
+margin-left: 4%;
+width: 5.2vw;
+height: 3.4vh;
+font-size: 0.8vw;
+background-color: rgb(255, 255, 255);
+border: 0.2vw solid  rgb(71, 71, 71); 
+color: rgb(71, 71, 71);
+border-radius: 28px;
+        }
+        .calculate:hover{
+            opacity: 40%;
+        }
+        .outcome{
+            margin-top: 42%;
+            margin-left: 30%;
+            font-size: 1.6vw;
+            color: rgb(71, 71, 71);
+
+        }
+    .FormTitle{
+
+        text-align: center;
+        font-size: 2.4vw;
+        color:rgb(71, 71, 71);
+
+    }
+    /*Lokalizacja*/
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      
+      }
+      .map1{
+        width: 100%;
+        height:600px;
+      }
+      .mapTitle{
+text-align: center;
+     font-size: 2vw;
+     color:rgb(71, 71, 71);
+      }
+      /*Firma*/
+      .CompanyTitle{
+        text-align: center;
+             font-size: 2vw;
+             color:rgb(71, 71, 71);
+              }
+      .companyDescription{
+        text-align: center;
+        margin-top: 6%;
+        font-size: 1vw;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+     .emloyers{
+        display: inline-flex;
+        margin-top: 7%;
+        margin-left: 7%;
+        margin: 4%;
+        justify-content: space-between;
+     }
+     .emloyers img{
+        width: 31%;
+     }
+     .widget {
+        position: absolute;
+        width: 15%;
+        height: 0%;
+        margin-top: 8%;
+        opacity: 0;
+        text-align: center ;
+        font-size: 0.9vw;
+        background-color:white;
+        border-radius: 0 0 100% 100%;  
+        transition: height 0.5s, opacity 0.5s;  
+      }           
+      .custom-margin-widget {                 
+    
+      margin-left: 15.7%;
+        background-color: white;
+      }
+      .custom-margin-widget2{
+        width: 14.2%;
+        margin-left: 31.9%;
+          background-color: white;
+      }
+      /*Kontakt*/
+      .contactTitle{
+        text-align: center;
+             font-size: 2vw;
+             color:rgb(71, 71, 71);
+              }
+
+      .contact{
+        margin-top: 20%;
+        text-align: center;
+        font-size: 1.6vw;
+        color:rgb(71, 71, 71);
+      }
+      .socials{
+        display: flex;
+        justify-content:space-evenly ; 
+        margin-top: 8%;
+       font-size: 2.8vw;
+       text-decoration: none;
+    
+      }
+    
+      /*for smartphones*/
+                      
+@media only screen and (max-width: 1000px){
+   
+
+    .backgroundMainImage {
+        transform: scale(1);
+    }
+    .background2{
+
+        transform: scale(1);
+    }
+    .logo img {
+        width: 30%; 
+    }
+    .logo {
+        margin-left: 5%;
+        display: inline;
+    }
+
+    .burger {
+       
+        background: transparent;
+        border: none;
+        outline: none;
+        float: right;
+       margin-top: 0.2%;
+        margin-right: 57%;
+        width: 8%;
+       transition: .3s ease-in-out;
+    }
+    .lines {
+        width: 2.8rem;
+        height: 0.3rem;
+        margin: 0.4rem;
+        background-color: rgb(255, 255, 255);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .lines {
+        transform: translateY(0); 
+    }
+    
+    .burger.active .lines:first-child {
+        transform: translateY(-300px);
+        
+    }
+.burger.active .lines:nth-child(2){
+
+transform: rotate(-50deg) translateY(8px);
+margin-left: -2%;
+
+}
+.burger.active .lines:nth-child(3){
+
+    transform: rotate(50deg) translateY(-8px);
+    margin-left: -2%;
+    }
+
+
+    .line {
+        width: 0.2%; 
+        height: 2.5%; 
+        background-color: white;
+        display: inline-block;
+        position: absolute;
+        left: 35%; 
+        margin-top: -2%; 
+    }
+    .buttons{
+
+        float: right;
+        margin-top: -21% !important;
+   
+        }
+        .button {
+            width: 1.8vw !important;  
+            height: 1.4vw !important; 
+        }
+
+        .menu{
+        
+            text-align:left;
+          flex-direction: column;
+              position: absolute;
+            margin-top: -4.6%;
+              margin-left: 88%;
+        
+          }
+          .menuElement {
+            display: none;
+            padding: 5%;
+            font-size: 2vw;
+            color: white;
+            position: relative; 
+            color: white;
+        }
+        .menuElement::after{
+            display: none;
+            }
+            
+            .menuElement:hover::after{
+         display: none;
+            }
+            .squares {
+                display: flex;
+                justify-content: space-between;
+                width: 70%!important;
+                height: 5.6vh ;
+                margin-left: 8%;
+                margin-top: 10% !important;
+            }
+            
+            .square {
+                width: 22% !important;
+                height: 5.4vh ;
+                background-color:none !important;
+                border: 3px white solid !important;
+                border: 2% solid white !important;
+            
+            }
+            .writing{
+                margin-top: 8.4%;
+                margin-left: 8%;
+                color: white;
+                font-size: 3.4vw !important;
+                
+                }
+                .writing2{
+                    margin-top: -1.8%;
+                    margin-left: 8.2%;
+                    color: white;
+                    font-size: 2.2vw !important;
+                    text-decoration: none;
+                }
+            .plus{
+                color: white;
+                font-size: 4vw !important;
+                margin-left: 14%;
+                margin-top: 2%;
+            }
+            .type{
+            color: white;
+            font-size: 1.7vw !important;
+            margin-top: 0.2% !important;
+            position: relative;
+            margin-left: 4%;
+         
+            
+            
+            }
+            .type1{
+                color: white;
+                font-size: 1.9vw !important;
+                margin-top: 9% !important;
+                position: relative;
+                margin-left: 3%;
+                
+                
+                }
+            .type2{
+                 color: white !important;
+                font-size: 1.6vw !important;
+                margin-top: 3.2% !important;
+                position: relative;
+                margin-left: 3%;
+                    
+                    
+                }
+             .logo2 {
+              margin-left: 8%;
+             display: inline;
+          
+                    }
+                    
+            .logo2 img {
+            margin-top: 8% !important;
+            width: 16%;
+          
+                    }
+                    .line2 {
+                        width: 0.12%; 
+                        height: 1.6vh;
+                   background-color: black;
+                   display: inline-block;
+                   margin-left: -0.1%;
+                   margin-top: 8%;
+                   position: absolute;
+                
+                    }
+                    .responsiveApart{
+                        font-size: 1.2vw !important;
+                        margin-top: -5% !important;
+
+                    }
+                    .oferts {
+                        font-family: 'Crimson Pro', serif;
+                        position: absolute;
+                        display: inline;
+                        margin-top: 7.8%;
+                        margin-left: 0.7%;
+                        font-size: 2.4vw;
+                    }
+                
+
+                    .title{
+                        margin-top: -3% !important;
+                        margin-left: 56%;
+                        font-family: 'Crimson Pro', serif;
+                        font-weight: 450;
+                        position: absolute;
+                        display: inline;
+                        font-size: 2.8vw !important;
+                        text-align: left;
+                        width:20% ;
+                
+                    }
+                    .description{
+
+                        margin-top:-30% !important;
+                 
+                        width: 38% !important;
+                        font-size: 2vw !important;
+                     
+                    }
+                    .plus2{
+                    
+                        font-size: 4vw !important;
+                  
+                        margin-right: 12% !important;
+                        margin-top: -3% !important;
+                    
+                    }
+                    .price{
+     
+                      
+                        font-size: 2.4vw !important;
+                        
+                    }
+                    .title2{
+                        margin-top: -3% !important;
+                          font-size: 2.8vw !important;
+                 
+                  
+                      }
+                      .description2{
+                        margin-top:-35% !important;
+                 
+                        width: 38% !important;
+                        font-size: 2vw !important;
+                      }
+                      .description3{
+                        margin-top:-35% !important;
+                 
+                        width: 38% !important;
+                        font-size: 2vw !important;
+                       
+                      }
+                      .plus3{
+                        font-size: 4vw !important;
+                        margin-right:7% !important;
+                        margin-top: -3% !important;
+                    }
+                    .position{
+                        margin-left: 35% !important;
+            
+                    }
+
+                    .arrow{
+                        margin-left: 1% !important;
+                        margin-top:21% !important;
+                        width: 4vw !important;
+                height: 1.7vh !important;
+          
+                
+                    }
+                    .arrow:hover{
+                        background-color:rgb(255, 255, 255);
+                        opacity: 25%;
+                    }
+                  
+                        .material-symbols-outlined{
+                            font-size: 3.4vw !important; 
+                            margin-top: 4% !important;
+                            margin-left: 7% !important;
+
+                        }
+                        .arrow_forward{
+                          
+                            margin-top:-4% !important;
+                            width: 4vw !important;
+                    height: 1.7vh !important;
+                
+                
+                        }
+                        .arrow_forward:hover{
+                            background-color:rgb(255, 255, 255);
+                            opacity: 25%;
+                        }
+                        .position{
+                            margin-left: 35%;
+                
+                        }
+                        .logointerior {
+                            margin-left: 8%;
+                            display: inline;
+                        }
+                        
+                        .logointerior img {
+                            margin-top: 8% !important;
+                     
+                        }
+                        .line3 {
+                            width: 0.12% !important; 
+                            height: 1.6vh !important; 
+                            margin-top: 8% !important; 
+                            
+                        }
+                    .interiors{
+                        margin-top: 7.8% !important;
+                    }
+                   
+                    .logo3 {
+                        margin-left: 8%;
+                        display: inline;
+                    }
+                    
+                    .logo3 img {
+                        margin-top: 29% !important;
+                     
+                    }
+              
+                 
+                 .custom-margin{
+                    margin-top: 29% !important;
+                 }
+                 .custom-margin-oferts{
+
+                    margin-top: 29% !important;
+                }
+                .custom-margin-title{
+
+                    margin-top: -37% !important;
+               
+                }
+                .plus1{
+                  
+                    font-size: 4vw !important;
+                }
+                .background4{
+                    transform: scale(1) !important;
+                    padding-top: 58% !important;
+
+                }
+                .squares3 {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 18%;
+                    height: 42vh;
+                    margin-left: 6% !important;
+                    margin-top: 8%;
+                }
+                .custom-margin-squares3{
+                    margin-top: -11%;
+                }
+                
+                .square3 {
+                    width: 74% !important;
+                    height: 40% !important;
+                    margin: 3% !important;
+                    background-color:none;
+                    border: 3px white solid;
+                    border: 2% solid white;
+                
+                }
+                .plus4{
+                    color: white;
+                    font-size: 3vw !important;
+                    margin-left: 14%;
+                    margin-top: 2%;
+                    text-decoration:none;
+                }   
+                .type3{
+                    display:flex;
+                    color: white;
+            font-size: 2vw !important;
+            margin-top: 9.6%;
+            position: relative;
+            margin-left: 10%;
+                }
+                .squares3 {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 30% !important;
+                    height:12vh !important;
+                    margin-left: 10%;
+                    margin-top: 2% !important;
+                }
+                .custom-margin-squares3{
+                    margin-top: -11% !important;
+                }
+                .writingFinish{
+                    margin-top: -8% !important;
+                    margin-left: 6% !important;
+                    color: white;
+                    font-size: 1vw !important;
+                }
+                .article{
+                    width: 69% !important;
+                    margin-left:6% !important;
+                }
+                .ourTeam{
+                    color: white;
+                    font-size: 1.1vw !important;
+                    float: left;
+            
+                }
+                .logo6{
+                    margin-left: -66% !important;
+                    display: inline;
+                }
+                .logo6 img{
+                    margin-top: 25% !important;
+                    width: 16%;
+                }
+                .custom-margin2{
+                    margin-top: 25% !important;
+                 }
+                 .custom-margin-oferts2{
+
+                    margin-top: 25% !important;
+                }
+                .custom-margin-buttons2{
+                    margin-top: 37% !important;
+                    
+             }
+             .custom-margin-title2{
+             position: absolute;
+            margin-top: -17% !important;
+             }
+             .flatDescription{
+                position: absolute;
+                margin-top: -7% !important;
+                margin-left: 56%;
+                width: 37% !important;
+                font-size: 2vw !important;
+                text-align: left;
+                color: gray;
+            }
+            .flatPrice{
+            position: absolute;
+            margin-left: 56%;
+            margin-top: 20%;
+        width: 26%;
+        font-size: 2.2vw;
+        text-align: left;
+        color: gray;
+            }
+        
+                .flatplus{
+                    position: absolute;
+                    margin-left: 78%;
+                    margin-top: -15% !important;
+                    color: grey;
+                    font-size: 4vw !important;
+                    transition: transform 0.5s ease;
+                }
+                .flatplus:hover{
+                
+                    transform: rotate(180deg);
+                }
+                footer{
+                    background-color: rgb(230, 230, 230);
+                    padding-top: 4%;
+                    margin-top: 40%;
+                    z-index: 0;
+                    width: 100%;
+                }
+                .logo7{
+                    margin-left: 2%;
+                 
+                    display: inline;
+                }
+                
+                .logo7 img {
+                    width: 24% !important; 
+                    margin-top: -2%;
+                }
+            .name{
+
+                float: right;
+                margin-right: 2%;
+                font-size: 2.8vw !important;
+                color: white;
+                margin-top: 0.2% !important;
+
+            }
+         
+            
+         
+            .floatTitle{
+            
+             margin-top:32%;
+             color: white;
+            
+                }
+                .floatPrice{
+                    color:white;
+                }
+                .floatType{
+                    color: white;
+                    font-size: 1.5vw;
+                    margin-top: -26%;
+                    position: relative;
+                    margin-left: 3%;
+                    }
+                    .background5 {
+                    
+                        padding-top: 74% !important;
+                    }
+                    
+                    
+        /*Podstrona z obliczaniem rat platnosci*/
+
+   
+        .wrapper2 {
+            display: flex;
+            height: 100vh;
+          }
+          
+          .halfBackground {
+            flex: 1;
+            background-color: rgb(71, 71, 71);
+            background-size: cover;
+          }
+          
+          .halfBackground2 {
+            flex: 1;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+          }
+          .form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .itext {
+            margin-left: 5%;
+            margin-top: 73%;
+            width:36%;
+            position: absolute;
+            height: 5vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 3vw;
+            
+          }
+        .logo4 {
+            margin-left: 31%;
+         
+            display: inline;
+        }
+        
+        .logo4 img {
+            margin-top: 20%;
+          margin-left: -12%;
+            width: 72%;
+        }
+        .formPhotoContainer{
+
+            display: block;
+            
+            
+        }
+        .formPhoto img{
+            margin-left: 28%;
+            margin-top: 33%;
+            width: 47%;
+        }
+        .formPhoto2 img{
+            margin-left: 24%;
+            margin-top: 33%;
+          width: 56%;
+        }
+        .formPhoto3 img{
+            margin-left: 35%;
+            margin-top: 33%;
+          width: 34%;
+        }
+        .formPrice{
+position: absolute;
+font-size: 3.4vw;
+color: rgb(71, 71, 71);
+margin-left: -11%;
+margin-top: 60%;
+        }
+        .SelfDeposit{
+            position: absolute;
+            margin-left: 4.4%;
+            margin-top: 110%;
+            width:36%;
+            height: 5vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 4vw; 
+            
+        }
+        .SelfDeposit::placeholder{
+           color: rgb(148, 148, 148);
+        }
+        .SelfDepostiWriting{
+            position: absolute;
+            font-size: 3.3vw;
+            color: rgb(71, 71, 71);
+            margin-left: 1%;
+            margin-top: 97%;
+
+
+        }
+        .installmentWriting{
+            position: absolute;
+            font-size: 3.4vw;
+            color: rgb(71, 71, 71);
+           margin-left: -5%;
+            margin-top: 133%;
+          
+        }
+        .installment{
+            position: absolute;
+            margin-left: 4.4%;
+            margin-top: 146%;
+            width:36%;
+            height: 5vh;
+            border: 0.2vw solid  rgb(71, 71, 71); 
+            border-radius: 28px;
+            font-size: 4vw;
+        }
+        .calculate{
+position: absolute;
+margin-top: 180%;
+margin-left: 4%;
+width: 12.2vw;
+height: 4.4vh;
+font-size: 2.6vw;
+background-color: rgb(255, 255, 255);
+border: 0.2vw solid  rgb(71, 71, 71); 
+color: rgb(71, 71, 71);
+border-radius: 28px;
+        }
+        .calculate:hover{
+            opacity: 40%;
+        }
+        .outcome{
+            margin-top: 195%;
+            margin-left: 10%;
+            font-size: 5vw;
+            text-align: center;
+            color: rgb(71, 71, 71);
+
+        }
+    .FormTitle{
+
+        text-align: center;
+        font-size: 4.4vw;
+        margin-top: 20%;
+        color:rgb(71, 71, 71);
+
+    }
+    /*Firma*/
+    .CompanyTitle{
+        margin-top: 20%;
+        text-align: center;
+             font-size: 5vw;
+             color:rgb(71, 71, 71);
+              }
+    .companyDescription{
+        text-align: center;
+        margin-top: 1%;
+        font-size: 1.6vw;
+        position: absolute;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: none;
+      }
+     .emloyers{
+        display:flex;
+        flex-direction: column;
+        margin-top: -16% !important;
+        margin-left: 7%;
+        margin: 4%;
+    
+     }
+     .emloyers img{
+        width: 70%;
+        margin-top: 40%;
+        margin-left: 20%;
+    
+     }
+     .widget {
+        position: absolute;
+        flex-direction: column;
+        width: 32%;
+        height: 0%;
+        margin-top: 39%;
+        margin-left: 9%;
+        opacity: 0;
+        text-align: center ;
+        font-size: 2vw;
+        background-color:rgb(255, 255, 255);
+        border-radius: 0 0 100% 100%;  
+        transition: height 0.5s, opacity 0.5s;  
+      }           
+      .custom-margin-widget {                 
+        width: 32%;
+        margin-left: 9%;
+      margin-top: 88%;
+        background-color: white;
+      }
+      .custom-margin-widget2{
+        width: 32%;
+        margin-top: 136%;
+        margin-left: 9%;
+          background-color: white;
+      }
+              /*Kontakt*/
+         .contactTitle{
+            margin-top: 22%;
+        text-align: center;
+         font-size: 4vw;
+         color:rgb(71, 71, 71);
+                      }
+      .contact{
+        margin-top: 40%;
+        text-align: center;
+        font-size: 2.7vw;
+        color:rgb(71, 71, 71);
+      }
+      .socials{
+        display: flex;
+        justify-content:space-evenly ; 
+        margin-top: 8%;
+       font-size: 7vw;
+       text-decoration: none;
+    
+      }        
+          /*Lokalizacja*/
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+        width: 100%;
+      
+      }
+      .mapTitle{
+text-align: center;
+     font-size: 3vw;
+     color:rgb(71, 71, 71);
+     margin-top: 22%;
+      }
+      .map1{
+        width: 900% !important;
+        height: 1100px;
+      }
+
+                    }
+
+@media only screen and (min-width: 1000px) {
+    .burger {
+        display: none; 
+    }
+
+}
+
+
+
+                    
+            
+            
+
+        

@@ -1,0 +1,27 @@
+{
+"mieszkania": [
+{
+"id":"0",
+"photo":"img/flat1.png",
+"title":"MISZKANIE Z TRZEMA POKOJAMI",
+"description":"Przestronne i nowoczesne mieszkanie z 3 oddzielnymi pokojami, idealne dla rodziny lub osób ceniących komfort i przestrzeń. Apartament został zaprojektowany w stylu nowoczesnym z dbałością o detale i wysoką jakość wykończenia. Każdy z pokoi oferuje wystarczającą przestrzeń do stworzenia przytulnej atmosfery. Duży balkon pozwala na relaks i spędzanie czasu na świeżym powietrzu, dodając dodatkową przestrzeń do mieszkania.",
+"price":"510000"
+
+},
+{
+"id":"1",
+"photo":"img/flat2.png",
+"title":"NOWOCZESNA KAWALERKA",
+"description":"Piękna i nowoczesna kawalerka urządzona w minimalistycznym stylu. Przestrzeń wnętrza została optymalnie zagospodarowana, zapewniając funkcjonalność i komfort mieszkańcom. Jasne kolory, eleganckie dodatki oraz nowoczesne meble nadają wnętrzu nowoczesny charakter. Duże okna zapewniają obfitą ilość naturalnego światła, co sprawia, że kawalerka jest przytulna i jasna przez cały dzień.",
+"price":"392000"
+
+},
+{
+  "id":"2",
+  "photo":"img/flat3.png",
+  "title":"MISZKANIE Z TARASEM",
+  "description":"Nowoczesne mieszkanie z dwoma pokojami i dużym tarasem to idealne miejsce dla osób ceniących styl, funkcjonalność i komfort. Charakteryzuje się nowoczesnym designem, prostymi liniami oraz wysokiej jakości materiałami wykończeniowymi. Mieszkanie posiada dwie przestrzenne sypialnie, które zapewniają intymność i wygodę mieszkańcom. Dodatkowo, otwarta przestrzeń dziennego salonu połączonego z kuchnią tworzy przyjazną atmosferę.",
+  "price":"430000"
+}
+]
+}
