@@ -455,7 +455,7 @@ bedroom.addEventListener('mouseout', basic);
 
 
 
-const url = 'https://filipporzucek.github.io/FirstProtfolioProject/data.json'; 
+const url = 'https://filipporzucek.github.io/FirstStepGit/data.json'; 
 
 const flats = document.querySelector('.flats');
 fetch(url)
